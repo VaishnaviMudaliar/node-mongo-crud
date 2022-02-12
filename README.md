@@ -1,3 +1,2 @@
-# json-server-gmwcal
+# node-mongo-crud
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/json-server-gmwcal)
