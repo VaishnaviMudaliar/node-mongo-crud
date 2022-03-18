@@ -43,5 +43,17 @@ a {
 
 .border-shadow {
   border: 1px solid var(--border-btn);
-  box-shadow: 1px 3px 10px #e9ecf;
+  box-shadow: 1px 3px 10px #e9ecef;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.inline {
+  display: inline-block;
+}
+
+.text-light {
+  color: var(--light);
 }
