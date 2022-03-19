@@ -64,3 +64,12 @@ a {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+#header nav {
+  background-color: #06d6a0;
+  padding: 1em 0;
+  width: 100%;
+}
+
+#site-main {
+}
