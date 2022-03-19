@@ -57,3 +57,10 @@ a {
 .text-light {
   color: var(--light);
 }
+
+.text-gradient {
+  background: linear-gradient(to right, #8e2de2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
