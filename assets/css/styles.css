@@ -140,3 +140,59 @@ table {
 }
 
 /* add and update user */
+
+.form-title{
+  margin-top: 2em;
+
+}
+
+.form-title > h2{
+  padding: 0.5em;
+}
+
+.new-user{
+  max-width: 786px;
+  margin:auto;
+
+}
+
+#update_user .form-group
+#add_user .form-group{
+  margin: 4em 0;
+}
+
+#update_user .form-group input[type = "text"],
+#add_user .form-group input[type = "text"]{
+  width: 100%;
+  padding: .6em 1em;
+  margin: .5em 0;
+  border: 1px solid var(--border);
+  font-family: 'Barlow', sans-serif;
+  font-size: 1em;
+  border-radius: .2em;
+
+
+
+}
+
+#update_user .form-group .radio
+#add_user .form-group .radio{
+  margin: 1em 2em;
+}
+
+/* adding style to radio buttons */
+
+.radio input[type = "radio"]{
+  position: absolute;
+  opacity: 0;
+
+}
+
+.radio input[type = "radio"] + .radio-label:before{
+  content: "";
+  background: var(--border-btn);
+  border-radius: 100%;
+  border:1px solid var(--border) ;
+  display: inline-block;
+  
+}
