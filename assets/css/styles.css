@@ -194,5 +194,16 @@ table {
   border-radius: 100%;
   border:1px solid var(--border) ;
   display: inline-block;
-  
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: -0em;
+  margin-right: .5em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+
+
 }
