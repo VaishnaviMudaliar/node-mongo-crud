@@ -1,21 +1,15 @@
 
-  <link rel="stylesheet" href="/css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+ 
 <!-- include header -->
 
-<% -include ('include/_header') %>
+<%- include ('include/_header') %>
 <!-- /include header -->
 
  <main id="site-main">
       <div class="container">
         <div class="box-nav d-flex justify-between">
           <a href="add-user" class="border-shadow">
-            <span class="text-gradient"
-              >New User <i class="fa-solid fa-user"></i
-            ></span>
+            <span class="text-gradient">New User<i class="fas fa-user"></i>></span>
           </a>
         </div>
         <!-- form handling -->
@@ -31,7 +25,7 @@
               <th>Action</th>
             </tr>
             <tbody>
-             <% -include('include/_show') %>
+             <%- include('include/_show') %>
             </tbody>
           </table>
         </form>
@@ -40,5 +34,5 @@
 
 <!-- include footer -->
 
-<% -include('include/_footer') %>
+<%- include('include/_footer') %>
 <!-- /include footer -->
