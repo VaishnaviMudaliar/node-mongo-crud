@@ -1,9 +1,13 @@
 const express = require('express');
 const route = express.Router();
+const services = require('../services/render');
 
-route.get('/', (req, res) => {
-  res.render('index');
-});
+/*
+  @description Root Router
+  @method GET/
+*/
+
+route.get('/', services.homeRoutes);
 
 route.get('/add-user', (req, res) => {
   res.render('_add_user');
