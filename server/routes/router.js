@@ -1,6 +1,6 @@
 const express = require('express');
 const route = express.Router();
-const services = require('../services/render');
+const services = require('./services/render');
 
 /*
   @description Root Router
@@ -9,12 +9,8 @@ const services = require('../services/render');
 
 route.get('/', services.homeRoutes);
 
-route.get('/add-user', (req, res) => {
-  res.render('_add_user');
-});
+route.get('/add-user', services.add_user);
 
-route.get('/update-user', (req, res) => {
-  res.render('_update_user');
-});
+route.get('/update-user', update_user);
 
 module.exports = route;
