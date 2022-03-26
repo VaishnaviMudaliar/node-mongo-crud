@@ -10,6 +10,11 @@ const connectDB = async () => {
       useCreateIndex: true,
     });
 
-    console.log('MongoDB connected!');
-  } catch (err) {}
+    console.log('Mongodb connencted');
+  } catch (err) {
+    console.log(err);
+    process.exit(1);
+  }
 };
+
+module.exports = connectDB;
