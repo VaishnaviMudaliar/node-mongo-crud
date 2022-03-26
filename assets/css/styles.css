@@ -171,6 +171,7 @@ table {
 
 #update_user .form-group .radio #add_user .form-group .radio {
   margin: 1em 2em;
+  padding: 10px 20px;
 }
 
 /* adding style to radio buttons */
