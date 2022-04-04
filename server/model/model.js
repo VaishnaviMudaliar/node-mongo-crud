@@ -5,5 +5,15 @@ var schema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  email: {},
+  email: {
+    type: String,
+    reuired: true,
+    unique: true,
+  },
+  gender: String,
+  status: String,
 });
+
+const Userdb = mongoose.model('userdb', schema);
+
+module.exports = Userdb;
