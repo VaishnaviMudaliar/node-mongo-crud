@@ -1,7 +1,9 @@
 var Userdb = require('../model/model');
 
 // create and save new user
-exports.create = (req, res) => {};
+exports.create = (req, res) => {
+  // validate the request
+};
 
 // retrieve and return all users/retrieve and return a single user
 
