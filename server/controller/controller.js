@@ -3,6 +3,10 @@ var Userdb = require('../model/model');
 // create and save new user
 exports.create = (req, res) => {
   // validate the request
+  if (!req.body) {
+    res.status(400).send({ message: 'Content cannot be empty' });
+    return;
+  }
 };
 
 // retrieve and return all users/retrieve and return a single user
