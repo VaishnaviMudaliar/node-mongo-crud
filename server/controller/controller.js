@@ -1,4 +1,5 @@
 var Userdb = require('../model/model');
+const { add_user } = require('../services/render');
 
 // create and save new user
 exports.create = (req, res) => {
@@ -19,7 +20,8 @@ exports.create = (req, res) => {
   user
     .save(user)
     .then((data) => {
-      res.send(data);
+      // res.send(data);
+      res.redirect(add-user);
     })
     .catch((err) => {
       res.status(500).send({
